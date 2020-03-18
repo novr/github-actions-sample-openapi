@@ -25,7 +25,7 @@ jobs:
     - uses: actions/checkout@v2
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
-        repository: github-actions-client-openapi
+        repository: yumemi-nkomiya/github-actions-client-openapi
         path: client
 
     # openapi generate
